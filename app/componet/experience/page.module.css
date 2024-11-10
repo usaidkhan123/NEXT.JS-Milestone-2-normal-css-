@@ -1,0 +1,50 @@
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2rem;
+}
+
+.experienceTitle {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    text-align: center;
+    font-family: serif;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .experienceTitle {
+        font-size: 4.5rem;
+        margin-top: 8rem;
+    }
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 7rem;
+}
+
+@media (min-width: 768px) {
+    .imageContainer {
+        gap: 3rem;
+    }
+}
+
+.htmlImage {
+    object-fit: cover;
+    margin-bottom: -6rem;
+    margin-top: -2.5rem;
+}
+
+.cssImage {
+    object-fit: cover;
+}
+
+.jsImage {
+    object-fit: cover;
+}
